@@ -1,4 +1,3 @@
-
 # Workforce Demand and Employment Growth Analysis (2025–2035)
 
 ### Using the U.S. National Employment Matrix
@@ -170,153 +169,76 @@ Eight visualisations were developed to communicate the main employment patterns.
 | 8 | Dumbbell Chart | Compares 2025 and 2035 employment for selected occupation–industry combinations. |
 
 ## 8. Key Findings and Insights
-8.1 Occupations with the Largest Employment Increases
+
+### 8.1 Occupations with the Largest Employment Increases
 
 Home health and personal care aides in services for the elderly and persons with disabilities recorded the largest selected occupation–industry increase.
 
-Occupation
+| Occupation | Industry | Employment Increase (Thousands) |
+|---|---|---:|
+| Home health and personal care aides | Services for the elderly and persons with disabilities | 533.3 |
+| Home health and personal care aides | Home healthcare services | 202.9 |
+| Stockers and order fillers | General merchandise retailers | 116.1 |
+| Stockers and order fillers | Grocery and specialty food retailers | 112.6 |
+| Cooks, restaurant | Full-service restaurants | 93.0 |
+| Software developers | Computer systems design and related services | 72.6 |
+| Electricians | Electrical contractors and other wiring installation contractors | 62.2 |
+| Registered nurses | General medical and surgical hospitals; private | 62.0 |
+| Nurse practitioners | Offices of physicians | 58.7 |
+| Medical assistants | Offices of physicians | 58.0 |
 
-Industry
-
-Employment Increase (Thousands)
-
-Home health and personal care aides
-
-Services for the elderly and persons with disabilities
-
-533.3
-
-Home health and personal care aides
-
-Home healthcare services
-
-202.9
-
-Stockers and order fillers
-
-General merchandise retailers
-
-116.1
-
-Stockers and order fillers
-
-Grocery and specialty food retailers
-
-112.6
-
-Cooks, restaurant
-
-Full-service restaurants
-
-93.0
-
-Software developers
-
-Computer systems design and related services
-
-72.6
-
-Electricians
-
-Electrical contractors and other wiring installation contractors
-
-62.2
-
-Registered nurses
-
-General medical and surgical hospitals; private
-
-62.0
-
-Nurse practitioners
-
-Offices of physicians
-
-58.7
-
-Medical assistants
-
-Offices of physicians
-
-58.0
-
-8.2 Highest Reported Percentage Growth
+### 8.2 Highest Reported Percentage Growth
 
 Data scientists in solar electric power generation recorded the highest reported percentage growth among the selected detailed records.
 
-Occupation
-
-Reported Growth
-
-Data scientists
-
-218.4%
-
-Logisticians
-
-185.3%
-
-Mechanical engineers
-
-175.1%
+| Occupation | Reported Growth |
+|---|---:|
+| Data scientists | 218.4% |
+| Logisticians | 185.3% |
+| Mechanical engineers | 175.1% |
 
 High percentage growth should be considered alongside the absolute number of jobs added.
 
-8.3 Industries with Significant Employment Increases
+### 8.3 Industries with Significant Employment Increases
 
 The following industries recorded the largest summed employment increases across detailed records.
 
-Industry
-
-Summed Employment Increase (Thousands)
-
-Services for the elderly and persons with disabilities
-
-623.8
-
-Home healthcare services
-
-335.4
-
-Computer systems design and related services
-
-310.6
+| Industry | Summed Employment Increase (Thousands) |
+|---|---:|
+| Services for the elderly and persons with disabilities | 623.8 |
+| Home healthcare services | 335.4 |
+| Computer systems design and related services | 310.6 |
 
 These figures are sums of detailed records and are not verified official BLS industry totals.
 
-8.4 Employment Declines
+### 8.4 Employment Declines
 
 The analysis also identified occupation–industry combinations with projected employment declines.
 
 Cashiers in grocery and specialty food retailers recorded the largest decline among the ten selected losses.
 
-8.5 Employment Change Distribution
+### 8.5 Employment Change Distribution
 
 Most detailed occupation–industry employment changes were concentrated close to zero, with a positively skewed distribution and a longer tail toward larger increases. Some records also showed projected declines.
 
-8.6 Employment Size and Projected Change
+### 8.6 Employment Size and Projected Change
 
 The bubble chart displayed 33,711 records after applying a central 98% filter for visual clarity. A further 763 extreme records were excluded from this chart only, not from the cleaned dataset.
 
-8.7 Employment Relationships
+### 8.7 Employment Relationships
 
 The correlation analysis showed that employment levels in 2025 and 2035 were very strongly correlated. Absolute employment change had moderate positive relationships with employment size, while reported percentage growth had very weak correlations with the other indicators.
 
-9. Recommendations
+## 9. Recommendations
 
-Interpret employment growth using both absolute job change and percentage change.
+- Interpret employment growth using both absolute job change and percentage change.
+- Give attention to care-related occupations and services when examining projected workforce demand.
+- Consider technology, engineering, logistics and professional occupations when exploring areas of percentage growth.
+- Use detailed occupation–industry records for specific comparisons and clearly label aggregate or summed results.
+- Retain extreme observations unless there is evidence that they are data errors.
+- Compare projections with future realised employment data as those observations become available.
 
-Give attention to care-related occupations and services when examining projected workforce demand.
-
-Consider technology, engineering, logistics and professional occupations when exploring areas of percentage growth.
-
-Use detailed occupation–industry records for specific comparisons and clearly label aggregate or summed results.
-
-Retain extreme observations unless there is evidence that they are data errors.
-
-Compare projections with future realised employment data as those observations become available.
-
-10. Conclusion
+## 10. Conclusion
 
 The project examined projected U.S. employment patterns from 2025 to 2035 using the BLS National Employment Matrix.
 
@@ -326,28 +248,20 @@ The findings highlight the importance of examining employment levels, absolute c
 
 Overall, the project demonstrates how data cleaning, exploratory analysis and visualisation can transform a large employment dataset into meaningful insights about future workforce demand.
 
-11. Limitations
+## 11. Limitations
 
-Employment projections are estimates and may differ from future actual employment.
+- Employment projections are estimates and may differ from future actual employment.
+- Employment estimates are rounded to one decimal place in thousands, which can produce small differences when recalculating changes.
+- Industry-level totals calculated by summing detailed records may differ from official summary totals because of rounding and suppression.
+- IQR identifies statistical extremes but does not determine whether a record is erroneous.
+- Central 98% filters used in selected charts omit extreme records from those particular visualisations only.
+- Correlation results describe relationships and do not establish causal relationships.
 
-Employment estimates are rounded to one decimal place in thousands, which can produce small differences when recalculating changes.
+## 12. Future Scope
 
-Industry-level totals calculated by summing detailed records may differ from official summary totals because of rounding and suppression.
+- Compare projected employment with subsequent actual employment data.
+- Extend the analysis to additional projection years when updated BLS matrices become available.
+- Investigate selected occupations and industries in greater detail.
+- Explore regional or state-level employment patterns if suitable data are available.
+- Examine additional factors associated with workforce demand.
 
-IQR identifies statistical extremes but does not determine whether a record is erroneous.
-
-Central 98% filters used in selected charts omit extreme records from those particular visualisations only.
-
-Correlation results describe relationships and do not establish causal relationships.
-
-12. Future Scope
-
-Compare projected employment with subsequent actual employment data.
-
-Extend the analysis to additional projection years when updated BLS matrices become available.
-
-Investigate selected occupations and industries in greater detail.
-
-Explore regional or state-level employment patterns if suitable data are available.
-
-Examine additional factors associated with workforce demand.
